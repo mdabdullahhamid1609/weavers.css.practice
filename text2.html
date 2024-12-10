@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>different box</title>
+</head>
+<style>
+.container{
+    width: 100%;
+    background-color: rgb(52, 42, 42);
+} .top{
+    background-color: rgb(18, 125, 53);
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    font-size: large;
+}
+.between{
+    width: 100%;
+    height: 20vh;
+    background-color: aqua;
+    text-align: center;
+    font-size: large;
+}
+.content{
+    width: 100%;
+    height: 60vh;
+    padding-bottom: 50px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.box{
+    height: 250px;
+    width: 250px;
+    padding: 2px;
+    text-align: center;
+    background-color: brown;
+    justify-content: space-between;
+}
+.topbox{
+    height: 10vh;
+    color: aliceblue;
+    background-color: rgb(182, 120, 120);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.middlebox{
+    height: 10vh;
+    background-color: white;
+    color: black;
+}
+.bottombox{
+    height: 10vh;
+    padding: 2px;
+    background-color: white;
+    text-align: center;
+}
+
+</style>
+<body>
+    <div class="container">
+        <div class="top">TOP</div>
+        <div class="between"> BETWEEN</div>
+        <div class="content"> 
+            <div class="box">
+                <div class="topbox">
+                <h3> react</h3>
+                </div>
+                <div class="middlebox">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+                <div class="bottombox"><button>read more</button>
+                </div>
+            </div><div class="box">
+                <div class="topbox">
+                <h3> vue</h3>
+                </div>
+                <div class="middlebox">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+                <div class="bottombox"><button>read more</button>
+                </div>
+            </div><div class="box">
+                <div class="topbox">
+                <h3> angular</h3>
+                </div>
+                <div class="middlebox">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+                <div class="bottombox"><button>read more</button>
+                </div>
+            </div><div class="box">
+                <div class="topbox">
+                <h3> jquerry</h3>
+                </div>
+                <div class="middlebox">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+                <div class="bottombox"><button>read more</button>
+                </div>
+            </div>
+    
+</body>
+</html>

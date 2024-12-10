@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assingment 3</title>
+</head><style>
+.container{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid red;
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(6,1fr);
+}
+.box1{
+    background-color: antiquewhite;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;    
+    text-align: center;
+}.box2{
+    background-color: rgb(255, 145, 0);
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;    
+    text-align: center;
+}.box3{
+    background-color: rgb(64, 36, 0);
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 7;    
+    text-align: center;
+}.box4{
+    background-color: rgb(64, 36, 0);
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 4;    
+    text-align: center;
+}.box5{
+    background-color: rgb(187, 56, 56);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 6;    
+    text-align: center;
+}.box6{
+    background-color: rgb(247, 198, 133);
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 6;    
+    text-align: center;
+}.box7{
+    background-color: rgb(59, 121, 112);   
+    text-align: center;
+}.box8{
+    background-color: rgb(103, 169, 141);    
+    text-align: center;
+}.box9{
+    background-color: rgb(121, 97, 65);
+    text-align: center;
+}.box10{
+    background-color: rgb(135, 113, 83);
+    grid-column-start: 4;
+    grid-column-end: 6;   
+    text-align: center;
+}
+
+</style>
+<body>
+    <div class="container">
+       <div class="box1">image1</div>
+       <div class="box2">image2</div>
+       <div class="box3">image3</div>
+       <div class="box4">image4</div>
+       <div class="box5">image5</div>
+       <div class="box6">image6</div>
+       <div class="box7">image7</div>
+       <div class="box8">image8</div>
+       <div class="box9">image9</div>
+       <div class="box10">image10</div>
+
+    </div>
+</body>
+</html>

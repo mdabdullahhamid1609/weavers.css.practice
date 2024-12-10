@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assingment2</title>
+</head><style>
+.container{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid red;
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    justify-content: center;
+}
+.box1{
+    background-color: aqua;
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}.box2{
+    background-color: rgb(44, 78, 78);
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}.box3{
+    background-color: rgb(168, 104, 165);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+} .box4{
+
+    background-color: brown;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+} .box5{
+    background-color: blueviolet;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}.box6{
+    background-color: blueviolet;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}.box7{
+    background-color: aquamarine;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}  .box8{
+    background-color: rgb(31, 39, 39);
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.box9{
+    background-color: rgb(79, 203, 223);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:  4;
+    grid-row-end: 5;
+}.box10{
+    background-color: rgb(151, 119, 180);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+</style>
+<body>
+    <div class="container">
+        <div class="box1">block1</div>
+        <div class="box2">block2</div>
+        <div class="box3">block3</div>
+        <div class="box4">block4</div>
+        <div class="box5">block5</div>
+        <div class="box6">block6</div>
+        <div class="box7">block7</div>
+        <div class="box8">block8</div>
+        <div class="box9">block9</div>
+        <div class="box10">block10</div>
+    </div>
+</body>
+</html>

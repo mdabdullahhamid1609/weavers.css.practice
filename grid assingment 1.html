@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid assinfment 1</title>
+</head>
+<style>
+    .container{
+        width: 100%;
+        height: 100vh;
+        border: 2px solid red;
+        display: grid;
+        row-gap: 10px;
+        column-gap: 10px;
+        grid-template-areas: "hdr hdr hdr hdr"
+                             "nav nav nav nav"
+                             "sbr main main main"
+                             "sbr sec sec sec"
+                             "ftr ftr ftr ftr";
+    }
+    .box1{
+        text-align: center;
+        grid-area:  hdr;
+        background-color: antiquewhite;
+    }.box2{
+
+        text-align: center;
+        background-color: aqua;
+        grid-area:  nav;
+    }.box3{
+        text-align: center;
+        background-color: bisque;
+        grid-area:  sbr;
+    }.box4{
+        text-align: center;
+        background-color: blueviolet;
+        grid-area:  main;
+    }.box5{
+        text-align: center;
+        background-color: rgb(182, 1, 1);
+        grid-area:  sec;
+    }.box6{
+        text-align: center;
+        background-color: rgb(42, 105, 105);
+        grid-area:  ftr;
+    }
+</style>
+<body>
+<div class="container">
+    <div class="box1">HEADER</div>
+    <div class="box2">NAVIGATION</div>
+    <div class="box3">ASIDE</div>
+    <div class="box4">CONTENT</div>
+    <div class="box5">SECTION</div>
+    <div class="box6">FOOTER</div>
+</div>    
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>container</title>
+</head>
+<style>
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: aliceblue;
+}
+.header{
+    text-align: center;
+    font-size: large;
+    color: red;
+}
+.left{
+    background-color: antiquewhite;
+    width: 10%;
+}
+.middle{
+    width: 80%;
+    background-color: aliceblue;
+}
+.row{
+    width: 100%;
+    height: 150px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.new1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(11, 45, 58);
+
+}.new2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(85, 25, 25);
+}.new3{
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+}.new4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(18, 116, 26);
+}
+
+.newa{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}.newb{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(37, 37, 43);
+}.newc{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(35, 35, 82);
+}.newd {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(232, 232, 236);
+}
+.right{
+    width: 10%;
+    height: auto;
+    background-color: antiquewhite;
+}
+.footer{
+    text-align: center;
+    background-color: tomato;
+    font-size: large;
+    color: black;
+}
+</style>
+<body>
+    <div class="container">
+        <div class="left"></div>
+        <div class="middle">
+            <div class="header">
+            <h1>HEADING</h1>
+        </div>
+        <div class="row">
+        <div class="new1"></div>
+        <div class="new2"></div>
+        <div class="new3"></div>
+        <div class="new4"></div>
+        </div>
+        <div class="row">
+            <div class="newa"></div>
+            <div class="newb"></div>
+            <div class="newc"></div>
+            <div class="newd"></div>
+            </div>
+            <div class="row">
+                <div class="newa"></div>
+                <div class="newb"></div>
+                <div class="newc"></div>
+                <div class="newd"></div>
+            </div>
+            <div class="footer">Footer</div>
+        </div>
+        <div class="right"></div>
+        </div>
+</body>
+</html>
